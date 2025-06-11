@@ -68,16 +68,15 @@ def start(message):
 
       
       bot.send_photo(message.chat.id,pg)
-      bot.send_message(message.chat.id,f"اهلا بك في بوت افلام sexy 👙👠💋 انتضر تحميل الفيدوهات") 
+      bot.send_message(message.chat.id,f"اهلا\tبك\tلبدأ\tالتحميل\tاضغط\n/SEXY") 
      
-@bot.message_handler(commands = ["TIKTOK"])
+@bot.message_handler(commands = ["SEXY"])
 def s1(message):
     mj=bot.send_message(message.chat.id,"""  
-* -  بوت تحميل من التيك توك . 
-- لتحميل فديو وصور ارسل رابط المنشور 
-- التحميل بدون علامة مائية او اي حقوق اخرى. 
+* -  جار تحميل الفيدوهات الى البوت انتضر....
+اضرب واحد بين ما ينزل. 
 --------------------------------------
-@T_4IJ - @T_4IJ                                          *
+ -                                           *
 """,parse_mode = "markdown")
     bot.register_next_step_handler(mj,ag)
 def ag(message):
