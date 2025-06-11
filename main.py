@@ -44,7 +44,7 @@ def start(message):
    id = message.from_user.id
    with open('users.txt','a') as f3:
     f3.write(f'{id}\n')
-    channel = "" # Your channel username without @
+    channel = "A_S_4A" # Your channel username without @
     
     a = message.from_user.first_name
     b = message.from_user.username
@@ -73,8 +73,7 @@ def start(message):
 @bot.message_handler(commands = ["SEXY"])
 def s1(message):
     mj=bot.send_message(message.chat.id,"""  
-* -  بوت افلام سكسيهه
-انتضر جار تنزيل اضربلك واحد بين ما يخلص. 
+* -  افلام هنا 👉 https://t.me/mono3i. 
 --------------------------------------
  -                                           *
 """,parse_mode = "markdown")
