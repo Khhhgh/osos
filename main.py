@@ -31,7 +31,7 @@ def id_file1(id):
    all = True
  file.close()
  return all
-pg = "https://t.me/mover7i/3" 
+pg = "https://t.me/mokjjbv/48" 
 ti=0
 users = []
 token = "7688125082:AAG_htr5oru-4xCkjYFG0hVzjHQJ2-8QWHo"
@@ -68,13 +68,14 @@ def start(message):
 
       
       bot.send_photo(message.chat.id,pg)
-      bot.send_message(message.chat.id,f"اهلا\tبك\tلبدأ\tالتحميل\tاضغط\n/SEXY") 
+      bot.send_message(message.chat.id,f"اهلا\tبك\tلبدأ\tالتحميل\tاضغط\n/TIKTOK") 
      
-@bot.message_handler(commands = ["SEXY"])
+@bot.message_handler(commands = ["TIKTOK"])
 def s1(message):
     mj=bot.send_message(message.chat.id,"""  
-* -  جار تحميل الفيدوهات الى البوت انتضر....
-اضرب واحد بين ما ينزل. 
+* -  بوت تحميل من التيك توك . 
+- لتحميل فديو وصور ارسل رابط المنشور 
+- التحميل بدون علامة مائية او اي حقوق اخرى. 
 --------------------------------------
  -                                           *
 """,parse_mode = "markdown")
